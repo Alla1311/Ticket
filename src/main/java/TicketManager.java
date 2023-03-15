@@ -7,8 +7,8 @@ public class TicketManager {
         this.repository = repository;
     }
 
-    public void add(Ticket product) {
-        repository.add(product);
+    public void save(Ticket product) {
+        repository.save(product);
     }
 
     public Ticket[] findAll(String from, String to) {
